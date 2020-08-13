@@ -7,6 +7,19 @@
     android:orientation="vertical"
     android:background="@color/tan_background"
     tools:context=".MainActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark_color"
+        app:tabTextColor="#ffffff"
+        app:tabMode="fixed" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
     <!-- Numbers category -->
     <FrameLayout
         android:layout_width="match_parent"
@@ -54,5 +67,7 @@
             android:background="?android:attr/selectableItemBackground"
             android:text="@string/category_phrases" />
     </FrameLayout>
+
+
 
 </LinearLayout>
