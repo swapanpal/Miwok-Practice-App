@@ -10,6 +10,16 @@ import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
 
+/**
+ * step-1: create main activity & sub activity with Intent
+ * step-2: add listView with customAdapter(only for textView)
+ * step-3: add Image and update listView and customAdapter
+ * step-4: add background color
+ * stop-5: add audio
+ * step-6:Visual polish(click feedback(ripple circular) text size & position)
+ * step-7: add fragments with viewPager
+ * step-8: add TabLayout
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
